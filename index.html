@@ -4,22 +4,67 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dirk Salcedo</title>
-  <style>
-    :root { color-scheme: light dark; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-      padding: 0 16px;
-    }
-    h1 { font-weight: 600; margin: 0; }
-  </style>
+  <meta name="description" content="Dirk Salcedo's personal site.">
+  <link rel="canonical" href="https://dirksalcedo.com/">
+  <meta property="og:title" content="Dirk Salcedo">
+  <meta property="og:description" content="Dirk Salcedo's personal site.">
+  <meta property="og:url" content="https://dirksalcedo.com/">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121211" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <h1>Dirk Salcedo</h1>
+  <header class="site">
+    <div class="wrap">
+      <a class="mark" href="/">Dirk Salcedo</a>
+      <nav aria-label="Main">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="hero">
+      <h1>Hi, I'm Dirk<span class="dot">.</span></h1>
+      <!-- EDIT: one sentence on what you do. -->
+      <p class="lede">I write, build, and tinker. This is my little corner of the internet.</p>
+    </div>
+
+    <section id="about">
+      <h2>About</h2>
+      <!-- EDIT: a short bio, two or three sentences. -->
+      <p>A short introduction goes here: what you do, what you care about, and what you're working on right now.</p>
+    </section>
+
+    <section id="work">
+      <h2>Work</h2>
+      <!-- EDIT: add, remove, or rename entries. Each li is one item. -->
+      <ul class="list">
+        <li><a href="#">Featured project or article</a><span class="meta">2026</span></li>
+        <li><a href="#">Another thing worth showing</a><span class="meta">2026</span></li>
+        <li><a href="#">Something from the archive</a><span class="meta">2025</span></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>The best way to reach me is online.</p>
+      <!-- EDIT: add your email, LinkedIn, X, etc. -->
+      <ul class="links">
+        <li><a href="https://github.com/dirksalcedo" rel="me">GitHub</a></li>
+      </ul>
+    </section>
   </main>
+
+  <footer class="site">
+    <div class="wrap">© <span id="year">2026</span> Dirk Salcedo</div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>
