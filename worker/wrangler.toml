@@ -1,0 +1,14 @@
+name = "dirksalcedo-contact"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+# Sites allowed to post to this Worker (comma-separated).
+ALLOWED_ORIGINS = "https://dirksalcedo.com,https://www.dirksalcedo.com"
+# Sender address on the domain verified in Resend.
+FROM_EMAIL = "Website contact form <contact@dirksalcedo.com>"
+
+# Secrets, set with `npx wrangler secret put <NAME>`:
+#   TURNSTILE_SECRET  Turnstile widget secret key
+#   RESEND_API_KEY    Resend API key
+#   TO_EMAIL          Address that receives messages
