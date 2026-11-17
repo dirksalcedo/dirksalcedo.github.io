@@ -4,79 +4,60 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Software portfolio · Dirk Salcedo</title>
-  <meta name="description" content="Selected software projects by Dirk Salcedo, from event registration to newsroom tools and personal finance.">
+  <meta name="description" content="Software projects by Dirk Salcedo, from event registration to newsroom tools and personal finance.">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="/portfolio/portfolio.css">
 </head>
-<body class="portfolio-page">
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header wrap">
-    <a class="wordmark" href="/">Dirk Salcedo<span aria-hidden="true">.</span></a>
-    <nav aria-label="Main navigation">
-      <a href="/">About</a>
-      <a href="#work">Selected work</a>
-      <a class="header-contact" href="/contact">Get in touch <span aria-hidden="true">→</span></a>
-    </nav>
-  </header>
+<body>
+  <main>
+    <p><a href="/">← Dirk Salcedo</a></p>
+    <h1>Software portfolio</h1>
+    <p>I build practical software for people and the work they do. Here are a few projects, from event registration to publishing and personal finance.</p>
 
-  <main id="main" class="portfolio-main">
-    <section class="hero wrap" aria-labelledby="hero-title">
-      <div class="hero-meta"><span class="eyebrow"><span class="dot"></span> Software portfolio</span><span>Davao City, Philippines</span></div>
-      <div class="hero-grid">
-        <div>
-          <h1 id="hero-title">Thoughtful software for <em>real work.</em></h1>
-          <p class="hero-intro">I’m Dirk, a journalist and developer building practical tools for people, teams, and the work they do every day.</p>
-          <div class="hero-actions"><a class="button-primary" href="#work">Explore the work <span aria-hidden="true">↓</span></a><a class="text-link" href="/contact">Have a project in mind? <span aria-hidden="true">→</span></a></div>
-        </div>
-        <aside class="hero-note" aria-label="About this portfolio">
-          <span class="note-number">01 — 03</span>
-          <p>From an event registration flow to the tools behind a newsroom, these projects turn complex workflows into something easier to use.</p>
-          <a href="#work">View selected projects <span aria-hidden="true">↓</span></a>
-        </aside>
-      </div>
-      <div class="hero-bottom"><span>Selected work / 2026</span><span>Scroll to explore <span aria-hidden="true">↓</span></span></div>
+    <section aria-labelledby="eventhub">
+      <h2 id="eventhub">EventHub</h2>
+      <p>An event management platform for the Red Cross Youth in Davao City. It brings online registration, capacity tracking, participant management, and QR ticketing together.</p>
+      <figure>
+        <a href="/assets/software/eventhub-registrations.png"><img src="/assets/software/eventhub-registrations.png" width="1440" height="1330" alt="EventHub registration queue showing approved seats, remaining capacity, and fictional participants"></a>
+        <figcaption>Registration and capacity management. <a href="/assets/software/eventhub-registrations.png">View full screenshot</a>.</figcaption>
+      </figure>
+      <figure class="mobile-view">
+        <a href="/assets/software/eventhub-mobile.png"><img src="/assets/software/eventhub-mobile.png" width="390" height="1447" alt="EventHub mobile page for a fictional workshop, with a sign-in to register button"></a>
+        <figcaption>The public event page on mobile. <a href="/assets/software/eventhub-mobile.png">View full screenshot</a>.</figcaption>
+      </figure>
+      <p class="note">Shown with a local test event and fictional registrations.</p>
     </section>
 
-    <section id="work" class="work-section" aria-labelledby="work-title">
-      <div class="wrap section-heading"><div><p class="eyebrow">A closer look</p><h2 id="work-title">Selected projects<span class="accent">.</span></h2></div><p>Tools built around the details that make a difference.</p></div>
-
-      <article class="project wrap" id="eventhub" aria-labelledby="eventhub-title">
-        <div class="project-header"><div class="project-index"><span>01</span><span>Event management</span></div><div class="project-heading"><h3 id="eventhub-title">EventHub</h3><p>From sign-up to a well-run event.</p></div><span class="project-category">Registration / Operations</span></div>
-        <div class="project-copy"><p>Built for the Red Cross Youth in Davao City, EventHub brings the public registration experience and the organizer’s workflow together in one place.</p><ul aria-label="EventHub features"><li>Online registration</li><li>Capacity tracking</li><li>Participant management</li><li>QR ticketing</li></ul></div>
-        <div class="showcase event-showcase">
-          <figure class="screen desktop-screen"><a href="/assets/software/eventhub-registrations.png" aria-label="Open the full EventHub registrations screenshot"><img src="/assets/software/eventhub-registrations.png" alt="EventHub admin registration queue showing approved seats, remaining capacity, and fictional participants" width="1440" height="1330"></a><figcaption><span>01 / Organize</span> Registrations and capacity at a glance <span aria-hidden="true">→</span></figcaption></figure>
-          <figure class="screen mobile-screen"><a href="/assets/software/eventhub-mobile.png" aria-label="Open the full EventHub mobile event screenshot"><img src="/assets/software/eventhub-mobile.png" alt="EventHub mobile event page for a fictional first aid workshop, with a sign-in to register button" width="390" height="1447"></a><figcaption><span>02 / Register</span> A clear starting point on mobile <span aria-hidden="true">→</span></figcaption></figure>
-        </div>
-        <p class="image-note">Screens shown with a local test event and fictional registrations.</p>
-        <div class="project-footer"><span>Built for the people on both sides of the sign-up.</span><a href="/contact">Discuss a booking or registration project <span aria-hidden="true">→</span></a></div>
-      </article>
-
-      <article class="project wrap" id="ctrlph" aria-labelledby="ctrlph-title">
-        <div class="project-header"><div class="project-index"><span>02</span><span>Publishing &amp; editorial</span></div><div class="project-heading"><h3 id="ctrlph-title">CTRL+PH</h3><p>A publication and the desk behind it.</p></div><span class="project-category">Publishing / Workflow</span></div>
-        <div class="project-copy"><p>A custom WordPress publication and a separate newsroom workspace, designed to support the journey from an incoming lead to a published story.</p><ul aria-label="CTRL+PH features"><li>Editorial publishing</li><li>Lead triage</li><li>Story workflow</li><li>Responsive design</li></ul></div>
-        <div class="showcase pair-showcase">
-          <figure class="screen"><a href="/assets/software/ctrlph-home.png" aria-label="Open the full CTRL+PH homepage demo screenshot"><img src="/assets/software/ctrlph-home.png" alt="CTRL+PH publication homepage with clearly labelled fictional demo stories" width="1440" height="2555" loading="lazy"></a><figcaption><span>01 / Publish</span> The publication homepage <span aria-hidden="true">→</span></figcaption></figure>
-          <figure class="screen"><a href="/assets/software/ctrlph-desk.png" aria-label="Open the full CTRL+PH Desk inbox screenshot"><img src="/assets/software/ctrlph-desk.png" alt="CTRL+PH Desk inbox showing a list of fictional leads and the selected lead's details" width="1440" height="1000" loading="lazy"></a><figcaption><span>02 / Report</span> The newsroom inbox <span aria-hidden="true">→</span></figcaption></figure>
-        </div>
-        <p class="image-note">Local demos with fictional stories and leads. The publication preview uses the theme’s fallback artwork.</p>
-        <div class="project-footer"><span>One connected workflow, from idea to publication.</span><a href="/contact">Talk about an editorial tool <span aria-hidden="true">→</span></a></div>
-      </article>
-
-      <article class="project wrap" id="paldo" aria-labelledby="paldo-title">
-        <div class="project-header"><div class="project-index"><span>03</span><span>Personal finance</span></div><div class="project-heading"><h3 id="paldo-title">Paldo</h3><p>A clearer view of the numbers.</p></div><span class="project-category">Finance / Planning</span></div>
-        <div class="project-copy"><p>A personal finance tracker that brings accounts, spending, loans, and recurring commitments into one view, with room to plan ahead.</p><ul aria-label="Paldo features"><li>Financial dashboard</li><li>Expense tracking</li><li>Bills &amp; loans</li><li>Mobile-friendly</li></ul></div>
-        <div class="showcase event-showcase paldo-showcase">
-          <figure class="screen desktop-screen"><a href="/assets/software/paldo-dashboard.png" aria-label="Open the full Paldo dashboard screenshot"><img src="/assets/software/paldo-dashboard.png" alt="Paldo dashboard showing fictional income, balances, spending, and upcoming payments" width="1440" height="1310" loading="lazy"></a><figcaption><span>01 / Plan</span> The financial picture in one place <span aria-hidden="true">→</span></figcaption></figure>
-          <figure class="screen mobile-screen"><a href="/assets/software/paldo-transactions.png" aria-label="Open the full Paldo mobile transactions screenshot"><img src="/assets/software/paldo-transactions.png" alt="Paldo mobile spending list with fictional transactions" width="390" height="844" loading="lazy"></a><figcaption><span>02 / Track</span> Transactions on the go <span aria-hidden="true">→</span></figcaption></figure>
-        </div>
-        <p class="image-note">Screens shown with fictional financial data in a local demo.</p>
-        <div class="project-footer"><span>Everyday details, made easier to follow.</span><a href="/contact">Discuss your project <span aria-hidden="true">→</span></a></div>
-      </article>
+    <section aria-labelledby="ctrlph">
+      <h2 id="ctrlph">CTRL+PH</h2>
+      <p>A custom WordPress publication and a separate newsroom workspace, supporting the workflow from an incoming lead to a published story.</p>
+      <figure>
+        <a href="/assets/software/ctrlph-home.png"><img src="/assets/software/ctrlph-home.png" width="1440" height="2555" loading="lazy" alt="CTRL+PH publication homepage with fictional demo stories"></a>
+        <figcaption>The publication homepage. <a href="/assets/software/ctrlph-home.png">View full screenshot</a>.</figcaption>
+      </figure>
+      <figure>
+        <a href="/assets/software/ctrlph-desk.png"><img src="/assets/software/ctrlph-desk.png" width="1440" height="1000" loading="lazy" alt="CTRL+PH Desk inbox showing fictional leads and a selected lead's details"></a>
+        <figcaption>The newsroom inbox. <a href="/assets/software/ctrlph-desk.png">View full screenshot</a>.</figcaption>
+      </figure>
+      <p class="note">Local demos with fictional stories and leads. The publication preview uses the theme’s fallback artwork.</p>
     </section>
 
-    <section class="contact-section"><div class="wrap contact-grid"><div><p class="eyebrow">Let’s make something useful</p><h2>Have a problem<br> worth <em>solving?</em></h2></div><div><p>Whether it’s a booking system, an internal tool, or a workflow that needs a better home, I’d love to hear what you’re working on.</p><a class="contact-button" href="/contact">Start a conversation <span aria-hidden="true">→</span></a></div></div></section>
+    <section aria-labelledby="paldo">
+      <h2 id="paldo">Paldo</h2>
+      <p>A personal finance tracker that brings accounts, spending, loans, and recurring commitments into one view.</p>
+      <figure>
+        <a href="/assets/software/paldo-dashboard.png"><img src="/assets/software/paldo-dashboard.png" width="1440" height="1310" loading="lazy" alt="Paldo dashboard showing fictional income, balances, spending, and upcoming payments"></a>
+        <figcaption>The financial dashboard. <a href="/assets/software/paldo-dashboard.png">View full screenshot</a>.</figcaption>
+      </figure>
+      <figure class="mobile-view">
+        <a href="/assets/software/paldo-transactions.png"><img src="/assets/software/paldo-transactions.png" width="390" height="844" loading="lazy" alt="Paldo mobile spending list with fictional transactions"></a>
+        <figcaption>Transactions on mobile. <a href="/assets/software/paldo-transactions.png">View full screenshot</a>.</figcaption>
+      </figure>
+      <p class="note">Shown with fictional financial data in a local demo.</p>
+    </section>
+
+    <p>Have a project in mind? <a href="/contact">Get in touch</a>.</p>
   </main>
-  <footer class="portfolio-footer wrap"><a class="wordmark" href="/">Dirk Salcedo<span aria-hidden="true">.</span></a><p>Journalist &amp; developer · Davao City</p><div><a href="/">About</a><a href="https://github.com/dirksalcedo">GitHub →</a><a href="/contact">Contact →</a></div></footer>
 </body>
 </html>
