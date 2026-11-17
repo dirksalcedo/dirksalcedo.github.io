@@ -1,0 +1,8 @@
+section { margin-top: 3rem; }
+h2 { margin: 0 0 0.75rem; font-size: 1.375rem; letter-spacing: -0.02em; }
+figure { margin: 1.5rem 0; }
+figure img { display: block; width: 100%; height: auto; }
+figcaption, .note { color: var(--muted); font-size: 0.875rem; }
+figcaption { margin-top: 0.5rem; }
+.mobile-view img { max-width: 240px; max-height: 520px; object-fit: cover; object-position: top; }
+main > p:last-child { margin-top: 3rem; }
