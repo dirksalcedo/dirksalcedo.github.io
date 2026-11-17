@@ -4,70 +4,110 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Software portfolio · Dirk Salcedo</title>
-  <meta name="description" content="Software projects by Dirk Salcedo, from event registration to newsroom tools and personal finance.">
+  <meta name="description" content="Software Dirk Salcedo has built for the Red Cross, newsrooms, flight simulation and his own use.">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="/portfolio/portfolio.css">
+  <link rel="stylesheet" href="/portfolio/portfolio.css?v=2">
 </head>
 <body>
   <main>
     <p><a href="/">← Dirk Salcedo</a></p>
     <h1>Software portfolio</h1>
-    <p>I build practical software for people and the work they do. Here are a few projects, from event registration to publishing and personal finance.</p>
-    <p class="projects-nav"><a href="#eventhub">EventHub</a> · <a href="#ctrlph">CTRL+PH</a> · <a href="#paldo">Paldo</a></p>
+    <p>I write software on the side, mostly for things I'm already involved in: Red Cross Youth work in Davao, news publishing, personal finance, and flight simulation. These are the projects I'm happy to show.</p>
+    <p class="projects-nav"><a href="#eventhub">EventHub</a> · <a href="#aviocracy">Aviocracy</a> · <a href="#ctrlph">CTRL+PH</a> · <a href="#paldo">Paldo</a> · <a href="#more">More</a></p>
 
     <section class="project" aria-labelledby="eventhub">
-      <p class="kicker">Event management</p>
+      <p class="kicker">Red Cross Youth</p>
       <h2 id="eventhub">EventHub</h2>
-      <p>An event management platform for the Red Cross Youth in Davao City. It brings online registration, capacity tracking, participant management, and QR ticketing together.</p>
+      <p>Event sign-ups for the Red Cross Youth in Davao City. People register online, organizers approve them against a seat limit, and everyone who gets in receives a QR ticket for check-in on the day.</p>
       <div class="shots with-mobile">
         <figure class="desktop">
           <a class="frame" href="/assets/software/eventhub-registrations.png"><img src="/assets/software/eventhub-registrations.png" width="1440" height="1330" decoding="async" alt="EventHub registration queue showing approved seats, remaining capacity, and fictional participants"></a>
-          <figcaption>Registration and capacity management.</figcaption>
+          <figcaption>Organizers work through pending registrations.</figcaption>
         </figure>
         <figure class="mobile">
           <a class="frame" href="/assets/software/eventhub-mobile.png"><img src="/assets/software/eventhub-mobile.png" width="390" height="1447" decoding="async" alt="EventHub mobile page for a fictional workshop, with a sign-in to register button"></a>
-          <figcaption>The public event page on mobile.</figcaption>
+          <figcaption>An event page on a phone.</figcaption>
         </figure>
       </div>
-      <p class="note">Shown with a local test event and fictional registrations. Select a screenshot to see it in full.</p>
+      <p class="note">Test event with made-up registrations. Click any screenshot to see it in full.</p>
+    </section>
+
+    <section class="project" aria-labelledby="aviocracy">
+      <p class="kicker">Game in development</p>
+      <h2 id="aviocracy">Aviocracy</h2>
+      <p>An airline management game for Mac and Windows. You start an airline with real aircraft types at real airports, plan every route and schedule yourself, and compete with AI airlines. The clock runs in real time and doesn't stop when you close the game, so there's always something waiting when you come back.</p>
+      <div class="shots">
+        <figure class="app">
+          <a class="frame" href="/assets/software/aviocracy-market.png"><img src="/assets/software/aviocracy-market.png" width="2560" height="1600" loading="lazy" decoding="async" alt="Aviocracy aircraft market listing Airbus types with availability, catalogue prices, and used offers"></a>
+          <figcaption>Shopping for aircraft, new or used.</figcaption>
+        </figure>
+      </div>
+      <p class="note">Development build with a test airline.</p>
     </section>
 
     <section class="project" aria-labelledby="ctrlph">
-      <p class="kicker">Publishing &amp; newsroom tools</p>
+      <p class="kicker">News publishing</p>
       <h2 id="ctrlph">CTRL+PH</h2>
-      <p>A custom WordPress publication and a separate newsroom workspace, supporting the workflow from an incoming lead to a published story.</p>
+      <p>A Philippine tech news site. I built the WordPress theme, plus Desk, a separate app where story leads are logged and followed up until they're published.</p>
       <div class="shots pair">
         <figure class="desktop">
           <a class="frame" href="/assets/software/ctrlph-home.png"><img src="/assets/software/ctrlph-home.png" width="1440" height="2555" loading="lazy" decoding="async" alt="CTRL+PH publication homepage with fictional demo stories"></a>
-          <figcaption>The publication homepage.</figcaption>
+          <figcaption>The homepage.</figcaption>
         </figure>
         <figure class="desktop">
           <a class="frame" href="/assets/software/ctrlph-desk.png"><img src="/assets/software/ctrlph-desk.png" width="1440" height="1000" loading="lazy" decoding="async" alt="CTRL+PH Desk inbox showing fictional leads and a selected lead's details"></a>
-          <figcaption>The newsroom inbox.</figcaption>
+          <figcaption>The Desk inbox.</figcaption>
         </figure>
       </div>
-      <p class="note">Local demos with fictional stories and leads. The publication preview uses the theme’s fallback artwork.</p>
+      <p class="note">Local copies with placeholder stories and leads.</p>
     </section>
 
     <section class="project" aria-labelledby="paldo">
       <p class="kicker">Personal finance</p>
       <h2 id="paldo">Paldo</h2>
-      <p>A personal finance tracker that brings accounts, spending, loans, and recurring commitments into one view.</p>
+      <p>A personal finance tracker. It keeps bank accounts, credit cards, loans and monthly bills in one place, and tells me how much cash I'll have left once everything due before a given date is paid.</p>
       <div class="shots with-mobile">
         <figure class="desktop">
           <a class="frame" href="/assets/software/paldo-dashboard.png"><img src="/assets/software/paldo-dashboard.png" width="1440" height="1310" loading="lazy" decoding="async" alt="Paldo dashboard showing fictional income, balances, spending, and upcoming payments"></a>
-          <figcaption>The financial dashboard.</figcaption>
+          <figcaption>The monthly dashboard.</figcaption>
         </figure>
         <figure class="mobile">
           <a class="frame" href="/assets/software/paldo-transactions.png"><img src="/assets/software/paldo-transactions.png" width="390" height="844" loading="lazy" decoding="async" alt="Paldo mobile spending list with fictional transactions"></a>
-          <figcaption>Transactions on mobile.</figcaption>
+          <figcaption>Spending on a phone.</figcaption>
         </figure>
       </div>
-      <p class="note">Shown with fictional financial data in a local demo.</p>
+      <p class="note">Local demo with made-up numbers.</p>
     </section>
 
-    <p class="closing">Have a project in mind? <a href="/contact">Get in touch</a>.</p>
+
+    <section class="project" aria-labelledby="more">
+      <h2 id="more">More projects</h2>
+      <ul class="more">
+        <li>
+          <h3>PRC Volunteer Mobilization System</h3>
+          <p>My college thesis, built for the Philippine Red Cross Davao City Chapter. Staff move an incident through alert levels, and volunteers are asked if they're available and then deployed. The first version texted volunteers through a GSM modem. I'm rebuilding it so it no longer depends on hosting that has since shut down.</p>
+        </li>
+        <li>
+          <h3>VATSIM Flight Companion</h3>
+          <p>A vPilot plugin that sends my VATSIM messages and flight milestones to Telegram, so I can step away from the sim PC on a long flight and still reply.</p>
+        </li>
+        <li>
+          <h3>Freelance tax calculator</h3>
+          <p>Works out quarterly and annual BIR income tax for Philippine freelancers, including the 8% flat-rate option.</p>
+        </li>
+        <li>
+          <h3>Event project tracker</h3>
+          <p>Tasks, deadlines and approvals for event committees, with one overview for whoever is running the whole event.</p>
+        </li>
+        <li>
+          <h3>Pictura</h3>
+          <p>Paste in a web page address and it pulls out every image on the page, so you can look through them and download the ones you want.</p>
+        </li>
+      </ul>
+    </section>
+
+    <p class="closing">Want something built? <a href="/contact">Get in touch</a>.</p>
   </main>
 </body>
 </html>
