@@ -80,6 +80,9 @@ figcaption { margin-top: 0.625rem; line-height: 1.45; }
 }
 .desktop .frame img { aspect-ratio: 1440 / 1000; }
 
+/* Desktop apps: framed window, shown uncropped. */
+.app .frame { border-radius: 12px; background: #0b1020; }
+
 .mobile .frame {
   border: 6px solid #1c1b19;
   border-radius: 26px;
@@ -99,5 +102,9 @@ figcaption { margin-top: 0.625rem; line-height: 1.45; }
 @media (prefers-reduced-motion: reduce) {
   .frame, .frame:hover { transition: none; transform: none; }
 }
+
+.more { list-style: none; margin: 1.25rem 0 0; padding: 0; display: grid; gap: 1.5rem; }
+.more h3 { margin: 0 0 0.25rem; font-size: 1.0625rem; letter-spacing: -0.01em; }
+.more p { margin: 0; }
 
 .closing { margin-top: 3.5rem; }
